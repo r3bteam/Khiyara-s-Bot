@@ -318,4 +318,4 @@ bot.add_cog(Music(bot))
 print('Music is loaded')             
     
 import os
-bot.run("NDA3MDk1NjkxMTIzNjIxODg4.DU8g_A.B9oskbK_wsDujLHOQryA_dDP8N0")
+bot.run("NDA3MDk1NjkxMTIzNjIxODg4.DU84jw.ZvnfWWrhRIkMuRd6DE1aGp2KQR8")
