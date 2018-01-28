@@ -318,4 +318,4 @@ bot.add_cog(Music(bot))
 print('Music is loaded')             
     
 import os
-bot.run(os.environ.get(BOT_TOKEN))
+bot.run("NDA3MDk1NjkxMTIzNjIxODg4.DU8g_A.B9oskbK_wsDujLHOQryA_dDP8N0")
