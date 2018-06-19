@@ -309,7 +309,7 @@ class Music:
 
         state = self.get_voice_state(ctx.message.server)
         if state.current is None:
-            await self.bot.say('Not playing anything right now.')
+            await self.bot.say('Not playing anything right now.')a
         else:
             skip_count = len(state.skip_votes)
             await self.bot.say('Now playing {} [skips: {}/3]'.format(state.current, skip_count))
@@ -318,4 +318,4 @@ bot.add_cog(Music(bot))
 print('Music is loaded')             
     
 import os
-bot.run("NDA3MDk1NjkxMTIzNjIxODg4.DU84jw.ZvnfWWrhRIkMuRd6DE1aGp2KQR8")
+nbot.run(process.env.BOT_TOKEN)
