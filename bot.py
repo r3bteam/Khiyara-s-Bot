@@ -5,7 +5,7 @@ import asyncio
 import time
 from discord.ext.commands import Bot
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or("!!"), description="Kappa Pride")
+bot = commands.Bot(command_prefix=commands.when_mentioned_or("1"), description="Kappa Pride")
 
 @bot.event
 async def on_ready():
